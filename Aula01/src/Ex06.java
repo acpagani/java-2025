@@ -15,5 +15,10 @@ public class Ex06 {
         double rankine = celsius * 1.8 + 32 + 459.67;
         double fahrenheit = celsius + 1.8 + 32;
 
+        System.out.println("Temperatura em Kelvin: " + kelvin);
+        System.out.println("Temperatura em Reaumur: " + reaumur);
+        System.out.println("Temperatura em Rankine: " + rankine);
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit);
+
     }
 }
